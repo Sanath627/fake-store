@@ -33,9 +33,9 @@ class productList extends Component {
     }
 
     return (
-      <div className="product-container">
+      <div className="product">
         {products.map(product => (
-          <div className="product-card" key={product.id}>
+          <div className="card" key={product.id}>
             <img src={product.image} alt={product.title} />
             <h3>{product.title}</h3>
             <p className="desc">{product.description}</p>
