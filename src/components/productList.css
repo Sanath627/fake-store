@@ -4,16 +4,16 @@
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
-    padding: 30px;
     background-color: #3e3434;
+    padding: 30px;
   }
   
   .card {
     background: rgb(241, 238, 235);
     width: 250px;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     }
   
   .card:hover {
@@ -46,9 +46,4 @@
     font-size: 1.1rem;
   }
   
-  .loading, .error {
-    text-align: center;
-    padding: 40px;
-    font-size: 1.2rem;
-  }
   
